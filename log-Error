@@ -1,0 +1,24 @@
+ * Error for developer * 
+Se.kth.iv1350.Project1PointOfSale.controller.OperationFailedException: Can not connect the Server
+	at Se.kth.iv1350.Project1PointOfSale.controller.Controller.scanItem(Controller.java:62)
+	at Se.kth.iv1350.Project1PointOfSale.view.View.EnterItemView(View.java:58)
+	at Se.kth.iv1350.Project1PointOfSale.view.View.fakeExecution(View.java:37)
+	at Se.kth.iv1350.Project1PointOfSale.startup.Main.main(Main.java:20)
+Caused by: Se.kth.iv1350.Project1PointOfSale.model.ItemRegistrationException: Item Chipsdoes not exist 
+	at Se.kth.iv1350.Project1PointOfSale.integration.InventorySystem.getItemInfo(InventorySystem.java:57)
+	at Se.kth.iv1350.Project1PointOfSale.controller.Controller.scanItem(Controller.java:59)
+	... 3 more
+---------------------------------------
+
+ * Error for developer * 
+Se.kth.iv1350.Project1PointOfSale.controller.OperationFailedException: Can not connect the Server
+	at Se.kth.iv1350.Project1PointOfSale.controller.Controller.scanItem(Controller.java:62)
+	at Se.kth.iv1350.Project1PointOfSale.view.View.EnterItemView(View.java:58)
+	at Se.kth.iv1350.Project1PointOfSale.view.View.fakeExecution(View.java:38)
+	at Se.kth.iv1350.Project1PointOfSale.startup.Main.main(Main.java:20)
+Caused by: Se.kth.iv1350.Project1PointOfSale.model.ItemRegistrationException: Item Chipsdoes not exist 
+	at Se.kth.iv1350.Project1PointOfSale.integration.InventorySystem.getItemInfo(InventorySystem.java:57)
+	at Se.kth.iv1350.Project1PointOfSale.controller.Controller.scanItem(Controller.java:59)
+	... 3 more
+---------------------------------------
+
